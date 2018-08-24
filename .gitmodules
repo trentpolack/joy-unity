@@ -1,0 +1,3 @@
+[submodule "Assets/source/third_party/FastNoise_CSharp"]
+	path = Assets/source/third_party/FastNoise
+	url = https://github.com/Auburns/FastNoise_CSharp.git
