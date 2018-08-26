@@ -66,7 +66,7 @@ MonoBehaviour:
     m_Value: 1
   screenWeightDistance:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 1
     min: 0
     max: 1
   rayMaxScreenDistance:
@@ -99,7 +99,7 @@ MonoBehaviour:
   active: 1
   depthRange:
     m_OverrideState: 1
-    m_Value: {x: 0.5, y: 64}
+    m_Value: {x: 0.1, y: 100}
     min: 0.01
     max: 10000
   depthDistributionUniformity:
@@ -121,7 +121,7 @@ MonoBehaviour:
   active: 1
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 700
+    m_Value: 250
     min: 0
   cascadeShadowSplitCount:
     m_OverrideState: 1
@@ -170,30 +170,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b145d2b9ee1ac4f846968484e7485a, type: 3}
   m_Name: ContactShadows
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enable:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   length:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.15
     min: 0
     max: 1
   distanceScaleFactor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.5
     min: 0
     max: 1
   maxDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 50
     min: 0
   fadeDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 5
     min: 0
   sampleCount:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 8
     min: 4
     max: 64
@@ -305,11 +305,11 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 25
     min: 1
   anisotropy:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -0.107
     min: -1
     max: 1
   globalLightProbeDimmer:
